@@ -1,0 +1,222 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "KyrevansDream",
+				"abbreviation": "KD",
+				"full": "Kyrevan's Dream",
+				"version": "1.0.0",
+				"url": "https://kyrevans-dream.fandom.com/wiki/Kyrevan%27s_Dream_Wiki",
+				"authors": [
+					"Juli Ahearn"
+				],
+				"color": "ffa348"
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Snagakin Blood Golem",
+			"source": "KyrevansDream",
+			"hasFluffImages": true,
+			"size": [
+				"L"
+			],
+			"type": "Construct-Undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d10 + 45",
+				"average": 127
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 18,
+			"int": 3,
+			"wis": 6,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified"
+			],
+			"languages": [
+				"Understands Goblin but can't speak"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Lifeless Guardian",
+					"entries": [
+						"The Blood Golem is immune to charm, fright, and any form of mind control."
+					]
+				},
+				{
+					"name": "Fluid Form",
+					"entries": [
+						"The Blood Golem can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Blood Magic Resistance",
+					"entries": [
+						"The Blood Golem has advantage on saving throws against spells and other magical effects, and resistance to necrotic damage."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The Blood Golem regenerates 10 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Blood Golem makes two Whip attacks."
+					]
+				},
+				{
+					"name": "Whip",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Blood Absorption",
+					"entries": [
+						"When a creature within 5 feet of the Blood Golem dies, the Blood Golem regains 10 hit points."
+					]
+				}
+			],
+			"traitTags": [
+				"Immutable Form",
+				"Magic Resistance",
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS",
+				"GO"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"MLW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							""
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Physical Description",
+								"entries": [
+									"Blood Golems are eerie, humanoid forms created from a combination of liquid and coagulated blood. Their bodies are in a constant state of flow, appearing to be made of viscous, ever-shifting blood. Despite their lack of bones, they maintain a humanoid shape through sheer magical force. Their fluid nature grants them a range of liquid-like abilities, making them unique among constructs and undead."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Origins and Creation",
+								"entries": [
+									"The Blood Golems were the creations of the House of Snagakins, a lineage of goblin vampire lords who once ruled the old continent. The Snagakins were deeply connected with blood, practicing blood rituals and wielding blood magic. As part of their dark arts, they used the blood of their slaves to create the Blood Golems, intended as tireless guardians for their crypts and catacombs.",
+									"The House of Snagakins used these Blood Golems to protect their strongholds, tombs, and places of ritual. After the extinction of the vampire lords, many Blood Golems were left to wander the forgotten catacombs they once guarded, continuing their eternal vigil with no masters to command them."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Lore and Behavior",
+								"entries": [
+									"Blood Golems are mindless guardians, eternally patrolling the corridors and chambers of ancient catacombs tied to the House of Snagakins. They attack any intruders on sight, following the last commands of their long-dead masters. Without a will of their own, they are driven solely by the magical compulsion to guard and protect the locations they were set to watch over."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Adventure Hooks",
+								"entries": [
+									"Lost Tomb: Adventurers seeking the lost tomb of a Snagakins vampire lord must navigate through a labyrinthine catacomb filled with patrolling Blood Golems.",
+									"Ancient Relic: A powerful blood magic artifact lies hidden in a Snagakins vault, guarded by Blood Golems that need to be overcome.,",
+									"Undead Scourge: Blood Golems have begun to wander from their ancient posts, terrorizing nearby villages. Adventurers must find the source of the disturbance and put an end to the threat."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/f/fc/Snagakin_Blood_Golem_Sketch.png"
+						}
+					}
+				]
+			},
+			"page": "/Snagakin_Blood_Golem",
+			"save": {
+				"str": "+9",
+				"con": "+8"
+			},
+			"skill": {
+				"perception": "+2"
+			},
+			"vulnerable": [
+				"poison",
+				"slashing"
+			],
+			"resist": [
+				"bludgeoning",
+				"necrotic",
+				"piercing"
+			],
+			"attachedItems": [
+				"whip|phb"
+			],
+			"environment": [
+				"snagakin locations"
+			],
+			"group": [
+				"Snagakin"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/c/c2/Snagakin_Blood_Golem_Token.png"
+			},
+			"damageTags": [
+				"B"
+			]
+		}
+	]
+}
