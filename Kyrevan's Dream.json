@@ -14,6 +14,284 @@
 			}
 		]
 	},
+
+	"language": [
+{
+	"name": "Mistspeech",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"Hunters in the Mist",
+		"Mist Cultists",
+		"Mistwalkers",
+		"Mist Fey"
+	],
+	"script": "Hueh"
+},{
+	"name": "Deepdark",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "nevamorker",
+	"typicalSpeakers": [
+		"Gwarons",
+		"Nevamorkers",
+		"Deep Fey"
+	],
+	"script": "Deepscript"
+},{
+	"name": "Imperial",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"Koshaimers",
+		"Dwarvs",
+		"Inhabitants of Ilngard"
+	],
+	"script": "Dwarv"
+},{
+	"name": "Neodwarvish",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"City and Port Dwarvs",
+		"Goblins"
+	],
+	"script": "Dwarv"
+},{
+	"name": "Goblin",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"Goblins",
+		"Runelings",
+		"Mannesks"
+	],
+	"script": "Dwarv"
+},{
+	"name": "Svartdwarv",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "svartwaelter",
+	"typicalSpeakers": [
+		"Svartdwarvs",
+		"Imperial settlers in Svartwaelt"
+	],
+	"script": "Dwarv"
+},{
+	"name": "Old Goblins'",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "extinct",
+	"typicalSpeakers": [
+		"Ancient Goblins (extinct)"
+	],
+	"script": "Goblin Runes"
+},{
+	"name": "Vocan",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "vocatan",
+	"typicalSpeakers": [
+		"Elves",
+		"Green Halflings",
+		"Vocan Fey",
+		"Inhabitants of Vocatan"
+	],
+	"script": "Hueh"
+},{
+	"name": "Harpic",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"Harpies",
+		"Some Birdfolk",
+		"Evthenians"
+	],
+	"script": "Harpic"
+},{
+	"name": "Merian",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"Fishfolk"
+	],
+	"script": "Merian"
+},{
+	"name": "Nilothian",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"Nilotians"
+	],
+	"script": "Deepscript"
+},{
+	"name": "Bearspeak",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"Rangers of Ilngard",
+		"Badgervolk",
+		"Other beastfolk of Ilngard"
+	],
+	"script": "Hueh"
+},{
+	"name": "Mannesk",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"Mannesks",
+		"Goblins",
+		"Inhabitants of Olauigne"
+	],
+	"script": "Hueh"
+},{
+	"name": "Gatarin",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"Gataris",
+		"Avetonian Sailors"
+	],
+	"script": "Avetonian"
+},{
+	"name": "Avetonian",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"Tabaxi",
+		"Mannesks",
+		"Avetonians",
+		"Inhabitants of Ilngard"
+	],
+	"script": "Avetonian"
+},{
+	"name": "Elven",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"Elves",
+		"Half-Mannesks",
+		"some Dryads"
+	],
+	"script": "Elven"
+},{
+	"name": "Golemic",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "ilngardian",
+	"typicalSpeakers": [
+		"Vesselids",
+		"Inhabitants of Fortresses' Banks"
+	],
+	"script": "Clay"
+},{
+	"name": "Lionic",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "extinct",
+	"typicalSpeakers": [
+		"Ancient Lionfolk"
+	],
+	"script": "Clay"
+},{
+	"name": "Amotlan",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "svartwaelter",
+	"typicalSpeakers": [
+		"Inhabitants of Svartwaelter colonies",
+		"Svartwaelter nations near Svartwaelter colonies"
+	],
+	"script": "Amotlan"
+},{
+	"name": "Arachnic",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "svartwaelter",
+	"typicalSpeakers": [
+		"Arachnas",
+		"Gnolls"
+	],
+	"script": "Deepscript"
+},{
+	"name": "Halfling",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "svartwaelter",
+	"typicalSpeakers": [
+		"Psion Halflings",
+		"Some Green Halflings",
+		"Psygolins"
+	],
+	"script": "Psyrune"
+},{
+	"name": "Psygolin",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "svartwaelter",
+	"typicalSpeakers": [
+		"Psygolins"
+	],
+	"script": "Psyrune"
+},{
+	"name": "Birdsong",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "svartwaelter",
+	"typicalSpeakers": [
+		"Birdfolk of Svartwaelt"
+	],
+	"script": "Birdsong"
+},{
+	"name": "Blackbeast",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "svartwaelter",
+	"typicalSpeakers": [
+		"Beastfolk of Svartwaelt"
+	],
+	"script": "no script"
+},{
+	"name": "Wurmding",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "svartwaelter",
+	"typicalSpeakers": [
+		"Wurmdings"
+	],
+	"script": "no script"
+},{
+	"name": "Capifolk",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "svartwaelter",
+	"typicalSpeakers": [
+		"Capifolk"
+	],
+	"script": "Harefolk"
+},{
+	"name": "Harefolk",
+	"source": "KyrevansDream",
+	"page": "/languages_of_jukion",
+	"type": "svartwaelter",
+	"typicalSpeakers": [
+		"Harefolk"
+	],
+	"script": "Harefolk"
+}
+],
 	"monster": [
 		{
 			"name": "Snagakin Blood Golem",
@@ -1454,6 +1732,130 @@
 			],
 			"savingThrowForced": [
 				"constitution"
+			]
+		},
+		{
+			"name": "Mist Stalker",
+			"source": "KyrevansDream",
+			"page": "/stalker_in_the_mist",
+			"basicRules": true,
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d10 + 5",
+				"average": 32
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 15,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"passive": 13,
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The stalker has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Mist Form",
+					"entries": [
+						"The stalker doesn't provoke opportunity attacks when it moves out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Vitality Drain {@recharge 1}",
+					"entries": [
+						"On successful Bite attack the attack's target has to succeed on {@dc 12} Constitution Saving Throw or gain one stack of {@condition exhaustion} stacking up to 5th level of {@condition exhaustion}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"hasFluffImages": true,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/2/2f/Stalker_in_the_Mist_Sketch.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/5/5e/Stalker_in_the_Mist_Painting.png"
+						}
+					}
+				]
+			},
+			"save": {
+				"cha": "+0"
+			},
+			"environment": [
+				"mist",
+				"the veil"
+			],
+			"group": [
+				"Hunters in the Mist"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/2/22/Stalker_in_the_Mist_Token.png"
+			},
+			"languages": [
+				"Understands Mistspeech but can't speak"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"P"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength"
 			]
 		}
 	]
