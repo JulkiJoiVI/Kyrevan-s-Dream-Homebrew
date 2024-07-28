@@ -184,7 +184,7 @@
 					}
 				]
 			},
-			"page": "/Snagakin_Blood_Golem",
+			"page": "/snagakin_blood_golem",
 			"save": {
 				"str": "+9",
 				"con": "+8"
@@ -214,8 +214,1246 @@
 				"type": "external",
 				"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/c/c2/Snagakin_Blood_Golem_Token.png"
 			},
+			"pbNote": "+4",
 			"damageTags": [
 				"B"
+			]
+		},
+		{
+			"name": "Saalmolch Elder",
+			"source": "KyrevansDream",
+			"page": "/saalmolch",
+			"size": [
+				"L"
+			],
+			"type": "Fey-Monstrosity",
+			"alignment": [
+				{
+					"special": "True Evil"
+				}
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "13d10 + 82",
+				"average": 153
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 22,
+			"int": 12,
+			"wis": 16,
+			"cha": 14,
+			"skill": {
+				"perception": "+7",
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Sylvan",
+				"Common"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Adaptive",
+					"entries": [
+						"Gains one trait from its host."
+					]
+				},
+				{
+					"name": "Soul Infestation {@recharge 5}",
+					"entries": [
+						"The Saalmolch can attempt to implant a larva into a humanoid or animal it has {@condition grappled}. The target must succeed on a {@dc 17} Constitution saving throw or become cursed. The cursed target takes {@damage 2d10} psychic damage at the start of each of its turns until the curse is removed or the target reaches 1 hit point, upon which they become {@condition unconscious} and the incubation process begins. This state can be cured by removing the curse for 8 hours."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Saalmolch has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Saalmolch makes two attacks: one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}18 ({@damage 3d6 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Fey Step {@recharge}",
+					"entries": [
+						"The Saalmolch magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"S",
+				"C"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							""
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Physical Description",
+								"entries": [
+									"Saalmolchs resemble gigantic bipedal salamanders, with most adults being of Medium size but exhibiting a Powerful Build, making them appear almost Large. The elder Saalmolchs, however, truly achieve Large size. Their young are closer to human size, progressing through various stages of growth. They have smooth, amphibian-like skin that changes color as they age:",
+									"Grubs: Brown (resembling bronze)",
+									"Young and Adults: Grey (resembling silver)",
+									"Elders: Yellow (resembling gold)"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Origins and Culture",
+								"entries": [
+									"Saalmolchs are an ancient species banished from the Feywild for crimes lost to history. They live in tribal societies, eschewing the complex hierarchies of empires or nations. Despite their feylike origins, they are not true fey and thus belong to a unique category that blends traits of both fey and monstrosities. "
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Lifecycle and Reproduction",
+								"entries": [
+									"Saalmolchs reproduce through a gruesome parasitic process:",
+									"Implantation: A Saalmolch implants a larva into a host (animal or humanoid), targeting the host's soul rather than their physical body. This is considered a curse for removal purposes.",
+									"Soul Growth: The larva feeds on the host's soul, growing within it. At this stage, the infestation can be removed as a curse.",
+									"Physical Manifestation: Once sufficiently grown, the larva transitions to a physical form, consuming the host from within. This stage is typically fatal to the host and no longer curable by simple means. Surgical removal might be possible but would result in severe physical and spiritual damage."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Ecology and Behavior",
+								"entries": [
+									"Saalmolchs inhabit secluded, forested areas where they can hunt and implant their larvae without interference. They are apex predators within their ecosystems but prefer to remain hidden, emerging only when necessary to sustain their lifecycle. Their tribal society is tightly knit, with elders guiding the younger members and ensuring the survival of their species. "
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Interaction with Other Species",
+								"entries": [
+									"    With Humanoids: Saalmolchs are feared and reviled by humanoid societies due to their horrific reproductive methods. Encounters with them are often fatal or result in severe spiritual and physical trauma.",
+									"With Animals: While they can and do implant animals, creating semi-developed Saalmolchs, this practice is rare and looked down upon within their culture."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Combat Tactics",
+								"entries": [
+									"    Saalmolchs prefer ambush tactics, using their powerful build to overwhelm opponents quickly.",
+									"They target lone or weakened individuals for implantation.",
+									"Elder Saalmolchs may employ rudimentary tribal magic, using nature-based spells to control their environment."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/8/8f/Saalmolch_Elder_Sketch.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/a/ab/Saalmolch_Elder_Painting.png"
+						}
+					}
+				]
+			},
+			"pbNote": "+4",
+			"save": {
+				"str": "+9",
+				"con": "+10",
+				"wis": "+7"
+			},
+			"environment": [
+				"coastal",
+				"forest",
+				"swamp"
+			],
+			"group": [
+				"Saalmolch"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/a/a2/Saalmolch_Elder_Token.png"
+			},
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Saalmolch Grub",
+			"source": "KyrevansDream",
+			"page": "/saalmolch",
+			"size": [
+				"S"
+			],
+			"type": "Fey-Monstrosity",
+			"alignment": [
+				{
+					"special": "True Evil"
+				}
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "4d6 + 8",
+				"average": 22
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 15,
+			"int": 4,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Understands Sylvan but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Soul Infestation {@recharge 5}",
+					"entries": [
+						"If the grub hits a creature with its bite attack, it can attempt to implant a larva. The target must succeed on a {@dc 10} Constitution saving throw or become cursed.  The cursed target takes {@damage 1d4} psychic damage at the start of each of its turns until the curse is removed or the target reaches 1 hit point, upon which they become {@condition unconscious} and the incubation process begins. This state can be cured by removing the curse for 8 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							""
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Physical Description",
+								"entries": [
+									"Saalmolchs resemble gigantic bipedal salamanders, with most adults being of Medium size but exhibiting a Powerful Build, making them appear almost Large. The elder Saalmolchs, however, truly achieve Large size. Their young are closer to human size, progressing through various stages of growth. They have smooth, amphibian-like skin that changes color as they age:",
+									"Grubs: Brown (resembling bronze)",
+									"Young and Adults: Grey (resembling silver)",
+									"Elders: Yellow (resembling gold)"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Origins and Culture",
+								"entries": [
+									"Saalmolchs are an ancient species banished from the Feywild for crimes lost to history. They live in tribal societies, eschewing the complex hierarchies of empires or nations. Despite their feylike origins, they are not true fey and thus belong to a unique category that blends traits of both fey and monstrosities. "
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Lifecycle and Reproduction",
+								"entries": [
+									"Saalmolchs reproduce through a gruesome parasitic process:",
+									"Implantation: A Saalmolch implants a larva into a host (animal or humanoid), targeting the host's soul rather than their physical body. This is considered a curse for removal purposes.",
+									"Soul Growth: The larva feeds on the host's soul, growing within it. At this stage, the infestation can be removed as a curse.",
+									"Physical Manifestation: Once sufficiently grown, the larva transitions to a physical form, consuming the host from within. This stage is typically fatal to the host and no longer curable by simple means. Surgical removal might be possible but would result in severe physical and spiritual damage."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Ecology and Behavior",
+								"entries": [
+									"Saalmolchs inhabit secluded, forested areas where they can hunt and implant their larvae without interference. They are apex predators within their ecosystems but prefer to remain hidden, emerging only when necessary to sustain their lifecycle. Their tribal society is tightly knit, with elders guiding the younger members and ensuring the survival of their species. "
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Interaction with Other Species",
+								"entries": [
+									"    With Humanoids: Saalmolchs are feared and reviled by humanoid societies due to their horrific reproductive methods. Encounters with them are often fatal or result in severe spiritual and physical trauma.",
+									"With Animals: While they can and do implant animals, creating semi-developed Saalmolchs, this practice is rare and looked down upon within their culture."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Combat Tactics",
+								"entries": [
+									"    Saalmolchs prefer ambush tactics, using their powerful build to overwhelm opponents quickly.",
+									"They target lone or weakened individuals for implantation.",
+									"Elder Saalmolchs may employ rudimentary tribal magic, using nature-based spells to control their environment."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/e/e1/Saalmolch_Grub_Sketch.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/0/0b/Saalmolch_Grub_Painting.png"
+						}
+					}
+				]
+			},
+			"environment": [
+				"coastal",
+				"forest",
+				"swamp"
+			],
+			"group": [
+				"Saalmolch"
+			],
+			"shortName": "Grub",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/6/68/Saalmolch_Grub_Token.png"
+			},
+			"damageTags": [
+				"P"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Saalmolch Adult",
+			"source": "KyrevansDream",
+			"page": "/saalmolch",
+			"size": [
+				"M"
+			],
+			"type": "Fey-Monstrosity",
+			"alignment": [
+				{
+					"special": "True Evil"
+				}
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 40",
+				"average": 85
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 18,
+			"int": 10,
+			"wis": 14,
+			"cha": 12,
+			"skill": {
+				"perception": "+5",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Sylvan"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"The Saalmolch counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift."
+					]
+				},
+				{
+					"name": "Adaptive",
+					"entries": [
+						"Gains one trait from its host."
+					]
+				},
+				{
+					"name": "Soul Infestation {@recharge 5}",
+					"entries": [
+						"The Saalmolch can attempt to implant a larva into a humanoid or animal it has {@condition grappled}. The target must succeed on a {@dc 15} Constitution saving throw or become cursed. The cursed target takes {@damage 1d10} psychic damage at the start of each of its turns until the curse is removed or the target reaches 1 hit point, upon which they become {@condition unconscious} and the incubation process begins.This state can be cured by removing the curse for 8 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Saalmolch makes two attacks: one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							""
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Physical Description",
+								"entries": [
+									"Saalmolchs resemble gigantic bipedal salamanders, with most adults being of Medium size but exhibiting a Powerful Build, making them appear almost Large. The elder Saalmolchs, however, truly achieve Large size. Their young are closer to human size, progressing through various stages of growth. They have smooth, amphibian-like skin that changes color as they age:",
+									"Grubs: Brown (resembling bronze)",
+									"Young and Adults: Grey (resembling silver)",
+									"Elders: Yellow (resembling gold)"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Origins and Culture",
+								"entries": [
+									"Saalmolchs are an ancient species banished from the Feywild for crimes lost to history. They live in tribal societies, eschewing the complex hierarchies of empires or nations. Despite their feylike origins, they are not true fey and thus belong to a unique category that blends traits of both fey and monstrosities. "
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Lifecycle and Reproduction",
+								"entries": [
+									"Saalmolchs reproduce through a gruesome parasitic process:",
+									"Implantation: A Saalmolch implants a larva into a host (animal or humanoid), targeting the host's soul rather than their physical body. This is considered a curse for removal purposes.",
+									"Soul Growth: The larva feeds on the host's soul, growing within it. At this stage, the infestation can be removed as a curse.",
+									"Physical Manifestation: Once sufficiently grown, the larva transitions to a physical form, consuming the host from within. This stage is typically fatal to the host and no longer curable by simple means. Surgical removal might be possible but would result in severe physical and spiritual damage."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Ecology and Behavior",
+								"entries": [
+									"Saalmolchs inhabit secluded, forested areas where they can hunt and implant their larvae without interference. They are apex predators within their ecosystems but prefer to remain hidden, emerging only when necessary to sustain their lifecycle. Their tribal society is tightly knit, with elders guiding the younger members and ensuring the survival of their species. "
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Interaction with Other Species",
+								"entries": [
+									"    With Humanoids: Saalmolchs are feared and reviled by humanoid societies due to their horrific reproductive methods. Encounters with them are often fatal or result in severe spiritual and physical trauma.",
+									"With Animals: While they can and do implant animals, creating semi-developed Saalmolchs, this practice is rare and looked down upon within their culture."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Combat Tactics",
+								"entries": [
+									"    Saalmolchs prefer ambush tactics, using their powerful build to overwhelm opponents quickly.",
+									"They target lone or weakened individuals for implantation.",
+									"Elder Saalmolchs may employ rudimentary tribal magic, using nature-based spells to control their environment."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/9/99/Saalmolch_Adult_Sketch.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/c/c5/Saalmolch_Adult_Painting.png"
+						}
+					}
+				]
+			},
+			"save": {
+				"str": "+7",
+				"con": "+7",
+				"wis": "+5"
+			},
+			"environment": [
+				"coastal",
+				"forest",
+				"swamp"
+			],
+			"group": [
+				"Saalmolch"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/0/05/Adult_Saalmolch_Token.png"
+			},
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Saalmolch Young",
+			"source": "KyrevansDream",
+			"page": "/saalmolch",
+			"size": [
+				"M"
+			],
+			"type": "Fey-Monstrosity",
+			"alignment": [
+				{
+					"special": "True Evil"
+				}
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 18",
+				"average": 45
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 16,
+			"int": 8,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Sylvan"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Adaptive",
+					"entries": [
+						"Gains one trait from its host."
+					]
+				},
+				{
+					"name": "Soul Infestation {@recharge 5}",
+					"entries": [
+						"The Saalmolch can attempt to implant a larva into a humanoid or animal it has {@condition grappled}. The target must succeed on a {@dc 12} Constitution saving throw or become cursed. The cursed target takes {@damage 1d8} psychic damage at the start of each of its turns until the curse is removed or the target reaches 1 hit point, upon which they become {@condition unconscious} and the incubation process begins.This state can be cured by removing the curse for 8 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Saalmolch makes two attacks: one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 3}) slashing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							""
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Physical Description",
+								"entries": [
+									"Saalmolchs resemble gigantic bipedal salamanders, with most adults being of Medium size but exhibiting a Powerful Build, making them appear almost Large. The elder Saalmolchs, however, truly achieve Large size. Their young are closer to human size, progressing through various stages of growth. They have smooth, amphibian-like skin that changes color as they age:",
+									"Grubs: Brown (resembling bronze)",
+									"Young and Adults: Grey (resembling silver)",
+									"Elders: Yellow (resembling gold)"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Origins and Culture",
+								"entries": [
+									"Saalmolchs are an ancient species banished from the Feywild for crimes lost to history. They live in tribal societies, eschewing the complex hierarchies of empires or nations. Despite their feylike origins, they are not true fey and thus belong to a unique category that blends traits of both fey and monstrosities. "
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Lifecycle and Reproduction",
+								"entries": [
+									"Saalmolchs reproduce through a gruesome parasitic process:",
+									"Implantation: A Saalmolch implants a larva into a host (animal or humanoid), targeting the host's soul rather than their physical body. This is considered a curse for removal purposes.",
+									"Soul Growth: The larva feeds on the host's soul, growing within it. At this stage, the infestation can be removed as a curse.",
+									"Physical Manifestation: Once sufficiently grown, the larva transitions to a physical form, consuming the host from within. This stage is typically fatal to the host and no longer curable by simple means. Surgical removal might be possible but would result in severe physical and spiritual damage."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Ecology and Behavior",
+								"entries": [
+									"Saalmolchs inhabit secluded, forested areas where they can hunt and implant their larvae without interference. They are apex predators within their ecosystems but prefer to remain hidden, emerging only when necessary to sustain their lifecycle. Their tribal society is tightly knit, with elders guiding the younger members and ensuring the survival of their species. "
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Interaction with Other Species",
+								"entries": [
+									"    With Humanoids: Saalmolchs are feared and reviled by humanoid societies due to their horrific reproductive methods. Encounters with them are often fatal or result in severe spiritual and physical trauma.",
+									"With Animals: While they can and do implant animals, creating semi-developed Saalmolchs, this practice is rare and looked down upon within their culture."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Combat Tactics",
+								"entries": [
+									"    Saalmolchs prefer ambush tactics, using their powerful build to overwhelm opponents quickly.",
+									"They target lone or weakened individuals for implantation.",
+									"Elder Saalmolchs may employ rudimentary tribal magic, using nature-based spells to control their environment."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/9/99/Saalmolch_Adult_Sketch.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/c/c5/Saalmolch_Adult_Painting.png"
+						}
+					}
+				]
+			},
+			"environment": [
+				"coastal",
+				"forest",
+				"swamp"
+			],
+			"group": [
+				"Saalmolch"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/e/e1/Young_Saalmolch_Token.png"
+			},
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Molchen Steed",
+			"source": "KyrevansDream",
+			"page": "/saalmolch",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				{
+					"special": "True Evil"
+				}
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d10 + 16",
+				"average": 60
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 6,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Understands Sylvan but can't speak"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Trampling Charge",
+					"entries": [
+						"If the Molchen Steed moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the Molchen Steed can make another attack with its hooves against it as a bonus action."
+					]
+				},
+				{
+					"name": "Adaptive",
+					"entries": [
+						"Gains one trait from its host."
+					]
+				},
+				{
+					"name": "Soul Infestation {@recharge 10}",
+					"entries": [
+						"If the steed hits a creature with its bite attack, it can attempt to implant a larva. The target must succeed on a {@dc 6} Constitution saving throw or become cursed.  The cursed target takes {@damage 1d4} psychic damage at the start of each of its turns until the curse is removed or the target reaches 1 hit point, upon which they become {@condition unconscious} and the incubation process begins. This state can be cured by removing the curse for 8 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Molchen Steed makes two attacks: one with its bite and one with its hooves."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) bludgeoning damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							""
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Physical Description",
+								"entries": [
+									"Saalmolchs resemble gigantic bipedal salamanders, with most adults being of Medium size but exhibiting a Powerful Build, making them appear almost Large. The elder Saalmolchs, however, truly achieve Large size. Their young are closer to human size, progressing through various stages of growth. They have smooth, amphibian-like skin that changes color as they age:",
+									"Grubs: Brown (resembling bronze)",
+									"Young and Adults: Grey (resembling silver)",
+									"Elders: Yellow (resembling gold)"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Origins and Culture",
+								"entries": [
+									"Saalmolchs are an ancient species banished from the Feywild for crimes lost to history. They live in tribal societies, eschewing the complex hierarchies of empires or nations. Despite their feylike origins, they are not true fey and thus belong to a unique category that blends traits of both fey and monstrosities. "
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Lifecycle and Reproduction",
+								"entries": [
+									"Saalmolchs reproduce through a gruesome parasitic process:",
+									"Implantation: A Saalmolch implants a larva into a host (animal or humanoid), targeting the host's soul rather than their physical body. This is considered a curse for removal purposes.",
+									"Soul Growth: The larva feeds on the host's soul, growing within it. At this stage, the infestation can be removed as a curse.",
+									"Physical Manifestation: Once sufficiently grown, the larva transitions to a physical form, consuming the host from within. This stage is typically fatal to the host and no longer curable by simple means. Surgical removal might be possible but would result in severe physical and spiritual damage."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Ecology and Behavior",
+								"entries": [
+									"Saalmolchs inhabit secluded, forested areas where they can hunt and implant their larvae without interference. They are apex predators within their ecosystems but prefer to remain hidden, emerging only when necessary to sustain their lifecycle. Their tribal society is tightly knit, with elders guiding the younger members and ensuring the survival of their species. "
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Interaction with Other Species",
+								"entries": [
+									"    With Humanoids: Saalmolchs are feared and reviled by humanoid societies due to their horrific reproductive methods. Encounters with them are often fatal or result in severe spiritual and physical trauma.",
+									"With Animals: While they can and do implant animals, creating semi-developed Saalmolchs, this practice is rare and looked down upon within their culture."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Combat Tactics",
+								"entries": [
+									"    Saalmolchs prefer ambush tactics, using their powerful build to overwhelm opponents quickly.",
+									"They target lone or weakened individuals for implantation.",
+									"Elder Saalmolchs may employ rudimentary tribal magic, using nature-based spells to control their environment."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/a/a2/Molchen_Steed_Sketch.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/b/b5/Molchen_Steed_Painting.png"
+						}
+					}
+				]
+			},
+			"environment": [
+				"coastal",
+				"forest",
+				"swamp"
+			],
+			"group": [
+				"Saalmolch"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/8/87/Molchen_Steed_Token.png"
+			},
+			"conditionInflict": [
+				"prone"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength"
+			]
+		},
+		{
+			"name": "Molchen Hound",
+			"source": "KyrevansDream",
+			"page": "/saalmolch",
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				{
+					"special": "True Evil"
+				}
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 12",
+				"average": 30
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 14,
+			"int": 6,
+			"wis": 14,
+			"cha": 8,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Understands Sylvan but can't speak"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The Molchen Hound has advantage on an attack roll against a creature if at least one of the Molchen Hund's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Adaptive",
+					"entries": [
+						"Gains one trait from its host."
+					]
+				},
+				{
+					"name": "Soul Infestation {@recharge 10}",
+					"entries": [
+						"If the hound hits a creature with its bite attack, it can attempt to implant a larva. The target must succeed on a {@dc 8} Constitution saving throw or become cursed.  The cursed target takes {@damage 1d4} psychic damage at the start of each of its turns until the curse is removed or the target reaches 1 hit point, upon which they become {@condition unconscious} and the incubation process begins. This state can be cured by removing the curse for 8 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Pack Tactics",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							""
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Physical Description",
+								"entries": [
+									"Saalmolchs resemble gigantic bipedal salamanders, with most adults being of Medium size but exhibiting a Powerful Build, making them appear almost Large. The elder Saalmolchs, however, truly achieve Large size. Their young are closer to human size, progressing through various stages of growth. They have smooth, amphibian-like skin that changes color as they age:",
+									"Grubs: Brown (resembling bronze)",
+									"Young and Adults: Grey (resembling silver)",
+									"Elders: Yellow (resembling gold)"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Origins and Culture",
+								"entries": [
+									"Saalmolchs are an ancient species banished from the Feywild for crimes lost to history. They live in tribal societies, eschewing the complex hierarchies of empires or nations. Despite their feylike origins, they are not true fey and thus belong to a unique category that blends traits of both fey and monstrosities. "
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Lifecycle and Reproduction",
+								"entries": [
+									"Saalmolchs reproduce through a gruesome parasitic process:",
+									"Implantation: A Saalmolch implants a larva into a host (animal or humanoid), targeting the host's soul rather than their physical body. This is considered a curse for removal purposes.",
+									"Soul Growth: The larva feeds on the host's soul, growing within it. At this stage, the infestation can be removed as a curse.",
+									"Physical Manifestation: Once sufficiently grown, the larva transitions to a physical form, consuming the host from within. This stage is typically fatal to the host and no longer curable by simple means. Surgical removal might be possible but would result in severe physical and spiritual damage."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Ecology and Behavior",
+								"entries": [
+									"Saalmolchs inhabit secluded, forested areas where they can hunt and implant their larvae without interference. They are apex predators within their ecosystems but prefer to remain hidden, emerging only when necessary to sustain their lifecycle. Their tribal society is tightly knit, with elders guiding the younger members and ensuring the survival of their species. "
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Interaction with Other Species",
+								"entries": [
+									"    With Humanoids: Saalmolchs are feared and reviled by humanoid societies due to their horrific reproductive methods. Encounters with them are often fatal or result in severe spiritual and physical trauma.",
+									"With Animals: While they can and do implant animals, creating semi-developed Saalmolchs, this practice is rare and looked down upon within their culture."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Combat Tactics",
+								"entries": [
+									"    Saalmolchs prefer ambush tactics, using their powerful build to overwhelm opponents quickly.",
+									"They target lone or weakened individuals for implantation.",
+									"Elder Saalmolchs may employ rudimentary tribal magic, using nature-based spells to control their environment."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/4/4a/Molchen_Hound_Sketch.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/2/2b/Molchen_Hound_Painting.png"
+						}
+					}
+				]
+			},
+			"environment": [
+				"coastal",
+				"forest",
+				"swamp"
+			],
+			"group": [
+				"Saalmolch"
+			],
+			"languageTags": [
+				"CS",
+				"S"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://static.wikia.nocookie.net/kyrevans-dream/images/3/32/Molchen_Hound_Token.png"
+			},
+			"damageTags": [
+				"P"
+			],
+			"savingThrowForced": [
+				"constitution"
 			]
 		}
 	]
