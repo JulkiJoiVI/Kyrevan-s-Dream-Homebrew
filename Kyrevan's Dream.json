@@ -2173,6 +2173,294 @@
 				"charisma",
 				"wisdom"
 			]
+		},
+		{
+			"name": "Mist Druid Chosen",
+			"source": "KyrevansDream",
+			"page": "/mist_cult",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item hide armor|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8 + 27"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 12,
+			"dex": 13,
+			"con": 16,
+			"int": 10,
+			"wis": 16,
+			"cha": 9,
+			"save": {
+				"int": "+3",
+				"wis": "+6"
+			},
+			"skill": {
+				"nature": "+3",
+				"perception": "+6",
+				"survival": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft. (beast form only)"
+			],
+			"passive": 16,
+			"resist": [
+				"cold"
+			],
+			"languages": [
+				"Common",
+				"Druidic",
+				"Mistspeech"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Humanoid Form Only)",
+					"headerEntries": [
+						"The druid is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}; {@hit 6} to hit with spell attacks). It has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell druidcraft}",
+								"{@spell eldritch blast}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell burning hands}",
+								"{@spell cure wounds}",
+								"{@spell fog cloud}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell animal messenger}",
+								"{@spell flaming sphere}",
+								"{@spell scorching ray}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell conjure animals}",
+								"{@spell plant growth}",
+								"{@spell revivify}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell aura of life}",
+								"{@spell fire shield}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell flame strike}",
+								"{@spell mass cure wounds}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The druid makes two melee attacks."
+					]
+				},
+				{
+					"name": "Returning Draining Javelin",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage and on a hit a wildshape charge or spellslots with summed worth of 4 can be expanded to cause one level of {@condition exhaustion}. This weapon returns to the weilder after being used."
+					]
+				},
+				{
+					"name": "Lightning Spirit",
+					"entries": [
+						"The spirit appears in an unoccupied space of your choice that you can see within 30 feet of you. Each creature within 10 feet of the spirit (other than you) when it appears must succeed on a Dexterity saving throw against your spell save DC or take {@damage 2d6} lightning damage.",
+						"The spirit is friendly to you and your companions and obeys your commands. See this creature's game statistics in the Wildfire Spirit stat block, which uses your proficiency bonus (PB) in several places. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.",
+						"In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the spirit can take any action of its choice, not just Dodge.",
+						"The spirit manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature to summon the spirit again, or until you die."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"C",
+				"DU"
+			],
+			"spellcastingTags": [
+				"F",
+				"CD"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"AOE"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5etools-mirror-1.github.io/img/IDRotF/Frost Druid.png",
+			"trait": [
+				{
+					"name": "Lady of the Mist's chosen",
+					"entries": [
+						"The druid is able to replace every damage type they deal with lightning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"N",
+				"O",
+				"R"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Rot Butcher",
+			"source": "KyrevansDream",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"alignmentPrefix": "Typically ",
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 37,
+				"formula": "5d8 + 15"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 17,
+			"int": 5,
+			"wis": 12,
+			"cha": 6,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"acid",
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Immobilizing Fear",
+					"entries": [
+						"When a creature that isn't a blight starts its turn within 30 feet of one or more rot butchers, that creature must make a {@dc 11} Wisdom saving throw. The creature has disadvantage on the save if it's within 30 feet of six or more butchers. On a failed save, the creature becomes {@condition frightened} of the butchers for 1 minute. While {@condition frightened} in this way, the creature is {@condition restrained}. At the end of each of the {@condition frightened} creature's turns, it can repeat the saving throw, ending the effect on itself on a success. On a successful save, the creature is immune to the Crippling Fear of all rot butchers for 24 hours."
+					]
+				},
+				{
+					"name": "Awaken corpses (1/day)",
+					"entries": [
+						"If in proximity of fleshy corpses, the butcher can animate as much all the corpses in 3 feet radius to create a servant it can control for an hour. The servant summoned will depent on the amount of corpses and may range from a {@creature crawling claw}, through a singular {@creature zombie} to a {@creature flesh golem}, or beyond. This servant doesn't have to be undead, it just has to be logically made out of a corpse or a mound of corpses."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Butcher Knife",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) slashing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition poisoned}. At the end of each long rest, the {@condition poisoned} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition poisoned} in this way, it dies and instantly transforms into a CR 1/8 fiend (blight). The transformation can be undone only by a {@spell wish} spell."
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"poisoned",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5etools-mirror-1.github.io/img/MPMM/Rutterkin.png",
+			"vulnerable": [
+				"bludgeoning",
+				"fire",
+				"radiant"
+			],
+			"damageTags": [
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			]
 		}
 	]
 }
