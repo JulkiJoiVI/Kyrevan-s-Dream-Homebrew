@@ -16,6 +16,332 @@
 	},
 	"race": [
 		{
+	"name": "Incola (Demon)",
+	"source": "KyrevansDream",
+	"page": "/Incola",
+	"creatureTypes": [
+		"humanoid"
+	],
+		"age": {
+		"mature": 24,
+		"max": 140
+	},
+	"size": [
+		"M"
+	],
+			
+	        "heightAndWeight": {
+		"baseHeight": 57,
+		"heightMod": "3d8",
+		"baseWeight": 110,
+		"weightMod": "3d4"
+	},
+	"resist": [
+		"fire"
+	],
+	"speed": 30,
+	"darkvision": 60,
+	"additionalSpells": [
+		{
+			"ability": {
+				"choose": [
+					"int",
+					"wis",
+					"cha"
+				]
+			},
+			"known": {
+				"1": [
+					"thaumaturgy|xphb#c"
+				]
+			}
+		}
+	],
+	"sizeEntry": {
+		"type": "item",
+		"name": "Size:",
+		"entries": [
+			"Medium (about 5-7 feet tall)"
+		]
+	},
+	"entries": [
+			{
+			"name": "Age",
+			"type": "entries",
+			"entries": [
+				"An incola reaches adulthood at the age of 24 and generally lives up to 140 years."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Darkvision",
+			"entries": [
+				"You have {@sense Darkvision|PHB} with a range of 60 feet."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Legacy of Secundix",
+			"entries": [
+				"As an Incola your bloodline is blessed by one of the dieties of Secundix. Your form may resemble any race in the multiverse to a degree but those features are far gone and replaced.",
+				"When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).",
+				{
+					"type": "table",
+					"caption": "Legacies of Secundix",
+					"colLabels": [
+						"Legacy of",
+						"Level 1",
+						"Level 3",
+						"Level 5"
+					],
+					"colStyles": [
+						"col-2",
+						"col-6",
+						"col-2",
+						"col-2"
+					],
+					"rows": [
+						[
+							"Carnut",
+							"You know the {@spell Message|PHB} cantrip.",
+							"{@spell Absorb Elements|XGE}",
+							"{@spell Borrowed Knowledge|SCC}"
+						],
+						[
+							"Gvendiose",
+							"You know the {@spell Friends|PHB} cantrip.",
+							"{@spell Command|PHB}",
+							"{@spell Alter Self|PHB}"
+						],
+						[
+							"Macchinari",
+							"You know the {@spell Mending|PHB} cantrip.",
+							"{@spell Bless|PHB}",
+							"{@spell Blur|PHB}"
+						],
+						[
+							"Ruac",
+							"You know the {@spell Gust|XGE} cantrip.",
+							"{@spell Zephyr Strike|XGE}",
+							"{@spell Warding Wind|XGE}"
+						],
+						[
+							"Scisso (G)",
+							"You know the {@spell Blade Ward|PHB} cantrip.",
+							"{@spell Sanctuary|PHB}",
+							"{@spell Calm Emotions|PHB}"
+						],
+						[
+							"Scisso (E)",
+							"You know the {@spell True Strike|PHB} cantrip.",
+							"{@spell Wrathful Smite|PHB}",
+							"{@spell Kinetic Jaunt|SCC}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Infernal Arts",
+			"entries": [
+				"You know the {@spell Fire Bolt|PHB} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy Trait."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Inferno Acclimation",
+			"entries": [
+				"You have Resistance to Fire damage."
+			]
+		}
+	],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							""
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Place Holder, holder of places"
+								]
+							}
+						]
+					}
+				]
+			}
+},
+		{
+	"name": "Incola (Blight)",
+	"source": "KyrevansDream",
+	"page": "/Incola",
+	"creatureTypes": [
+		"humanoid"
+	],
+		"age": {
+		"mature": 24,
+		"max": 140
+	},
+	"size": [
+		"M"
+	],
+			
+	        "heightAndWeight": {
+		"baseHeight": 57,
+		"heightMod": "3d8",
+		"baseWeight": 110,
+		"weightMod": "3d4"
+	},
+	"resist": [
+		"fire"
+	],
+	"speed": 30,
+	"darkvision": 60,
+	"additionalSpells": [
+		{
+			"ability": {
+				"choose": [
+					"int",
+					"wis",
+					"cha"
+				]
+			},
+			"known": {
+				"1": [
+					"thaumaturgy|xphb#c"
+				]
+			}
+		}
+	],
+	"sizeEntry": {
+		"type": "item",
+		"name": "Size:",
+		"entries": [
+			"Medium (about 5-7 feet tall)"
+		]
+	},
+	"entries": [
+			{
+			"name": "Age",
+			"type": "entries",
+			"entries": [
+				"An incola reaches adulthood at the age of 24 and generally lives up to 140 years."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Darkvision",
+			"entries": [
+				"You have {@sense Darkvision|PHB} with a range of 60 feet."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Legacy of Secundix",
+			"entries": [
+				"As an Incola your bloodline is blessed by one of the dieties of Secundix. Your form may resemble any race in the multiverse to a degree but those features are far gone and replaced.",
+				"When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).",
+				{
+					"type": "table",
+					"caption": "Legacies of Secundix",
+					"colLabels": [
+						"Legacy of",
+						"Level 1",
+						"Level 3",
+						"Level 5"
+					],
+					"colStyles": [
+						"col-2",
+						"col-6",
+						"col-2",
+						"col-2"
+					],
+					"rows": [
+						[
+							"Carnut",
+							"You know the {@spell Message|PHB} cantrip.",
+							"{@spell Absorb Elements|XGE}",
+							"{@spell Borrowed Knowledge|SCC}"
+						],
+						[
+							"Gvendiose",
+							"You know the {@spell Friends|PHB} cantrip.",
+							"{@spell Command|PHB}",
+							"{@spell Alter Self|PHB}"
+						],
+						[
+							"Macchinari",
+							"You know the {@spell Mending|PHB} cantrip.",
+							"{@spell Bless|PHB}",
+							"{@spell Blur|PHB}"
+						],
+						[
+							"Ruac",
+							"You know the {@spell Gust|XGE} cantrip.",
+							"{@spell Zephyr Strike|XGE}",
+							"{@spell Warding Wind|XGE}"
+						],
+						[
+							"Scisso (G)",
+							"You know the {@spell Blade Ward|PHB} cantrip.",
+							"{@spell Sanctuary|PHB}",
+							"{@spell Calm Emotions|PHB}"
+						],
+						[
+							"Scisso (E)",
+							"You know the {@spell True Strike|PHB} cantrip.",
+							"{@spell Wrathful Smite|PHB}",
+							"{@spell Kinetic Jaunt|SCC}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Infernal Arts",
+			"entries": [
+				"You know the {@spell Fire Bolt|PHB} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy Trait."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Inferno Acclimation",
+			"entries": [
+				"You have Resistance to Fire damage."
+			]
+		}
+	],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							""
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Place Holder, holder of places"
+								]
+							}
+						]
+					}
+				]
+			}
+},
+		{
 	"name": "Incola (Devil)",
 	"source": "KyrevansDream",
 	"page": "/Incola",
