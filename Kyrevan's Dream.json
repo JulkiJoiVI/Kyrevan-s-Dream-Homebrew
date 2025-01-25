@@ -108,25 +108,25 @@
 							"{@spell Animal Messenger|PHB}"
 						],
 						[
-							"Dokeops",+
+							"Dokeops",
 							"You know the {@spell Encode Thoughts|GGR} cantrip.",
 							"{@spell Chaos Bolt|XGE}",
 							"{@spell Borrowed Knowledge|SCC}"
 						],
 						[
-							"Hekatoktetes",+
+							"Hekatoktetes",
 							"You know the {@spell Light|PHB} cantrip.",
 							"{@spell Bane|PHB}",
 							"{@spell Levitate|PHB}"
 						],
 						[
-							"Skoliks",+
+							"Skoliks",
 							"You know the {@spell Mold Earth|XGE} cantrip.",
 							"{@spell Hunter's Mark|PHB}",
 							"{@spell Barkskin|PHB}"
 						],
 						[
-							"Tokokkino",+
+							"Tokokkino",
 							"You know the {@spell Message|PHB} cantrip.",
 							"{@spell Tasha's Hideous Laughter|PHB}",
 							"{@spell Crown of Madness|PHB}"
