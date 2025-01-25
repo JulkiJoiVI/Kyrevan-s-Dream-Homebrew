@@ -145,7 +145,7 @@
 			"type": "entries",
 			"name": "Infernal Arts",
 			"entries": [
-				"You know the {@spell Fire Bolt|PHB} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy Trait."
+				"You know the {@spell Fire Bolt|PHB} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Legacy of Secundix Trait."
 			]
 		},
 		{
@@ -200,7 +200,7 @@
 		"weightMod": "3d4"
 	},
 	"resist": [
-		"fire"
+		"poison"
 	],
 	"speed": 30,
 	"darkvision": 60,
@@ -215,7 +215,7 @@
 			},
 			"known": {
 				"1": [
-					"thaumaturgy|xphb#c"
+					"poison spray|phb"
 				]
 			}
 		}
@@ -265,40 +265,40 @@
 					],
 					"rows": [
 						[
-							"Carnut",
-							"You know the {@spell Message|PHB} cantrip.",
-							"{@spell Absorb Elements|XGE}",
-							"{@spell Borrowed Knowledge|SCC}"
-						],
-						[
-							"Gvendiose",
-							"You know the {@spell Friends|PHB} cantrip.",
-							"{@spell Command|PHB}",
-							"{@spell Alter Self|PHB}"
-						],
-						[
-							"Macchinari",
-							"You know the {@spell Mending|PHB} cantrip.",
-							"{@spell Bless|PHB}",
-							"{@spell Blur|PHB}"
-						],
-						[
-							"Ruac",
-							"You know the {@spell Gust|XGE} cantrip.",
-							"{@spell Zephyr Strike|XGE}",
-							"{@spell Warding Wind|XGE}"
-						],
-						[
-							"Scisso (G)",
+							"Beelzeboul",
 							"You know the {@spell Blade Ward|PHB} cantrip.",
-							"{@spell Sanctuary|PHB}",
-							"{@spell Calm Emotions|PHB}"
+							"{@spell Cause Fear|XGE}",
+							"{@spell Ray of Enfeeblement|PHB}"
 						],
 						[
-							"Scisso (E)",
-							"You know the {@spell True Strike|PHB} cantrip.",
-							"{@spell Wrathful Smite|PHB}",
-							"{@spell Kinetic Jaunt|SCC}"
+							"Eryz",
+							"You know the {@spell Shillelagh|PHB} cantrip.",
+							"{@spell Expeditious Retreat|PHB}",
+							"{@spell Spike Growth|PHB}"
+						],
+						[
+							"Kulule-Paka",
+							"You know the {@spell Resistance|PHB} cantrip.",
+							"{@spell Sanctuary|PHB}",
+							"{@spell Zone of Truth|PHB}"
+						],
+						[
+							"Othoyan",
+							"You know the {@spell Control Flames|XGE} cantrip.",
+							"{@spell Compelled Duel|PHB}",
+							"{@spell Silence|PHB}"
+						],
+						[
+							"Umuledyrann",
+							"You know the {@spell Guidance|PHB} cantrip.",
+							"{@spell Absorb Elements|XGE}",
+							"{@spell Spider Climb|PHB}"
+						],
+						[
+							"Urushisana",
+							"You know the {@spell Spare the Dying|PHB} cantrip.",
+							"{@spell Cure Wounds|PHB}",
+							"{@spell Gentle Repose|PHB}"
 						]
 					]
 				}
@@ -306,16 +306,16 @@
 		},
 		{
 			"type": "entries",
-			"name": "Infernal Arts",
+			"name": "Blighted Form",
 			"entries": [
-				"You know the {@spell Fire Bolt|PHB} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy Trait."
+				"You know the {@spell Poison Spray|PHB} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Legacy of Secundix Trait."
 			]
 		},
 		{
 			"type": "entries",
-			"name": "Inferno Acclimation",
+			"name": "Nausos Acclimation",
 			"entries": [
-				"You have Resistance to Fire damage."
+				"You have Resistance to Poison damage."
 			]
 		}
 	],
@@ -471,7 +471,7 @@
 			"type": "entries",
 			"name": "Infernal Arts",
 			"entries": [
-				"You know the {@spell Fire Bolt|PHB} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy Trait."
+				"You know the {@spell Fire Bolt|PHB} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Legacy of Secundix Trait."
 			]
 		},
 		{
@@ -632,9 +632,9 @@
 		},
 		{
 			"type": "entries",
-			"name": "Infernal Arts",
+			"name": "Null Mark",
 			"entries": [
-				"You know the {@spell Mind Sliver|TCE} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy Trait."
+				"You know the {@spell Mind Sliver|TCE} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Legacy of Secundix Trait."
 			]
 		},
 		{
