@@ -37,7 +37,7 @@
 		"weightMod": "3d4"
 	},
 	"resist": [
-		"fire"
+		"cold"
 	],
 	"speed": 30,
 	"darkvision": 60,
@@ -52,7 +52,7 @@
 			},
 			"known": {
 				"1": [
-					"thaumaturgy|xphb#c"
+					"Ray of Frost|phb"
 				]
 			}
 		}
@@ -102,40 +102,34 @@
 					],
 					"rows": [
 						[
-							"Carnut",
-							"You know the {@spell Message|PHB} cantrip.",
-							"{@spell Absorb Elements|XGE}",
+							"Beelarabiel",
+							"You know the {@spell Gust|XGE} cantrip.",
+							"{@spell Feather Fall|PHB}",
+							"{@spell Animal Messenger|PHB}"
+						],
+						[
+							"Dokeops",+
+							"You know the {@spell Encode Thoughts|GGR} cantrip.",
+							"{@spell Chaos Bolt|XGE}",
 							"{@spell Borrowed Knowledge|SCC}"
 						],
 						[
-							"Gvendiose",
-							"You know the {@spell Friends|PHB} cantrip.",
-							"{@spell Command|PHB}",
-							"{@spell Alter Self|PHB}"
+							"Hekatoktetes",+
+							"You know the {@spell Light|PHB} cantrip.",
+							"{@spell Bane|PHB}",
+							"{@spell Levitate|PHB}"
 						],
 						[
-							"Macchinari",
-							"You know the {@spell Mending|PHB} cantrip.",
-							"{@spell Bless|PHB}",
-							"{@spell Blur|PHB}"
+							"Skoliks",+
+							"You know the {@spell Mold Earth|XGE} cantrip.",
+							"{@spell Hunter's Mark|PHB}",
+							"{@spell Barkskin|PHB}"
 						],
 						[
-							"Ruac",
-							"You know the {@spell Gust|XGE} cantrip.",
-							"{@spell Zephyr Strike|XGE}",
-							"{@spell Warding Wind|XGE}"
-						],
-						[
-							"Scisso (G)",
-							"You know the {@spell Blade Ward|PHB} cantrip.",
-							"{@spell Sanctuary|PHB}",
-							"{@spell Calm Emotions|PHB}"
-						],
-						[
-							"Scisso (E)",
-							"You know the {@spell True Strike|PHB} cantrip.",
-							"{@spell Wrathful Smite|PHB}",
-							"{@spell Kinetic Jaunt|SCC}"
+							"Tokokkino",+
+							"You know the {@spell Message|PHB} cantrip.",
+							"{@spell Tasha's Hideous Laughter|PHB}",
+							"{@spell Crown of Madness|PHB}"
 						]
 					]
 				}
@@ -143,16 +137,16 @@
 		},
 		{
 			"type": "entries",
-			"name": "Infernal Arts",
+			"name": "Demonic Cold",
 			"entries": [
-				"You know the {@spell Fire Bolt|PHB} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Legacy of Secundix Trait."
+				"You know the {@spell Ray of Frost|PHB} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Legacy of Secundix Trait."
 			]
 		},
 		{
 			"type": "entries",
-			"name": "Inferno Acclimation",
+			"name": "Tartarus Acclimation",
 			"entries": [
-				"You have Resistance to Fire damage."
+				"You have Resistance to Cold damage."
 			]
 		}
 	],
